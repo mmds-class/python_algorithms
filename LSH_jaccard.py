@@ -132,14 +132,7 @@ def look_for_pairs(buckets_dct_lst):
                                 
                                 
 def process_docs(file_location, k, nbr_of_bands):
-    '''
-    the main function that:
-    1. Loads docs in memory
-    2. Create the hash functions used to permute
-    3. Run minhash
-    4. Run LSH
-    3. Extract candidate pairs
-    '''
+    
     print "loading documents..."
     doc_shingles_dct, all_shingles_lst = dict_from_file(file_location, k)
     print "Generating permutation hash functions..."
