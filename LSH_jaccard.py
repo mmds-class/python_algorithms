@@ -1,8 +1,3 @@
-'''
-Created on Oct 8, 2014
-
-@author: derek farren
-'''
 import sys
 import math
 from collections import defaultdict
